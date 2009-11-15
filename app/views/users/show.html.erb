@@ -1,0 +1,18 @@
+<p>
+  <b>Imie:</b>
+  <%=h @user.imie %>
+</p>
+
+<p>
+  <b>Nazwisko:</b>
+  <%=h @user.nazwisko %>
+</p>
+
+<p>
+  <b>Telefon:</b>
+  <%=h @user.telefon %>
+</p>
+
+
+<%= link_to 'Edit', edit_user_path(@user) %> |
+<%= link_to 'Back', users_path %>
